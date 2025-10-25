@@ -77,10 +77,34 @@
             </td>
         </tr>
         <tr>
-            <th colspan="3" style="background-color:aliceblue">Advanced</th>
+            <td>Pre</td>
+            <td>
+                <pre>&ltpre&gtThis text will be display as default,<br>it does not contain any default style&lt/pre&gt</pre>
+            </td>
+            <td>
+                <pre>This text will be display as default,<br>it does not contain any default style</pre>
+            </td>
         </tr>
         <tr>
-            <td>Del</td>
+            <td>Bold</td>
+            <td>
+                <pre>&ltem&gtThis is Bold text&lt/em&gt</pre>
+            </td>
+            <td>
+                <strong>This is Bold text</strong>
+            </td>
+        </tr>
+        <tr>
+            <td>Italic</td>
+            <td>
+                <pre>&ltem&gtThis is italic text&lt/em&gt</pre>
+            </td>
+            <td>
+                <em>This is italic text</em>
+            </td>
+        </tr>
+        <tr>
+            <td>Delete</td>
             <td>
                 <pre>&ltdel&gtThis text will be delete&lt/del&gt</pre>
             </td>
@@ -588,7 +612,25 @@
                 <pre>&ltiframe src="Path/embed.html"&gt&lt/iframe&gt</pre>
             </td>
             <td>
-                <iframe src="Path/embed.html">
+                <iframe src="Path/embed.html"></iframe>
+            </td>
+        </tr>
+    </table>
+
+    <h2 class="title">Progress</h2>
+    <table class="table">
+        <tr>
+            <th class="leftColumn">Name</th>
+            <th class="middleColumn">HTML</th>
+            <th>Sample</th>
+        </tr>
+        <tr>
+            <td>Audio</td>
+            <td>
+                <pre>&ltprogress value="30" max="100"&gt&lt/progress&gt</pre>
+            </td>
+            <td>
+                <progress value="30" max="100"></progress>
             </td>
         </tr>
     </table>
