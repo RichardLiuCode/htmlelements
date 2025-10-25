@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <style>
+        body {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 100vw;
+            height: 100vh;
+            margin: 0px;
+        }
+
+        #result {
+            margin: 0 auto;
+            font-family: arial;
+            font-size: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <p id="result"></p>
+    <script>
+        let urlInput = new URLSearchParams(window.location.search)
+        document.getElementById("result").innerText = "The text you entered is: " + urlInput.get("q")
+    </script>
+</body>
+
+</html>

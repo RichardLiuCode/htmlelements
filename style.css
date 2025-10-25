@@ -1,10 +1,12 @@
-.table {
+.table,
+table {
     font-family: arial;
     margin: 0 auto;
     border-collapse: collapse;
     border-width: 2px;
     border-style: solid;
-    border-color: black;
+    border-color: rgb(92, 91, 91);
+    box-shadow: 0 0 5px 3px lightgray;
 }
 
 th,
@@ -19,7 +21,7 @@ td {
 
 
 th {
-    width: 250px;
+    width: 360px;
 }
 
 .preContainer pre {
@@ -29,7 +31,16 @@ th {
 
 .title {
     margin: auto;
+    margin-top: 30px;
     margin-bottom: 10px;
     text-align: center;
     font-family: arial;
+}
+
+.leftColumn {
+    width: 150px;
+}
+
+.middleColumn {
+    width: 500px;
 }

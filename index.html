@@ -9,8 +9,8 @@
     <h2 class="title">Text</h2>
     <table class="table">
         <tr>
-            <th>Name</th>
-            <th>HTML</th>
+            <th class="leftColumn">Name</th>
+            <th class="middleColumn">HTML</th>
             <th>Sample</th>
         </tr>
         <tr>
@@ -67,12 +67,257 @@
                 <h6>Heading 6</h6>
             </td>
         </tr>
+        <tr>
+            <td>Paragraph</td>
+            <td>
+                <pre>&ltp&gtParagraph&lt/p&gt</pre>
+            </td>
+            <td>
+                <p>Paragraph</p>
+            </td>
+        </tr>
+        <tr>
+            <th colspan="3" style="background-color:aliceblue">Advanced</th>
+        </tr>
+        <tr>
+            <td>Del</td>
+            <td>
+                <pre>&ltdel&gtThis text will be delete&lt/del&gt</pre>
+            </td>
+            <td>
+                <del>This text will be delete</del>
+            </td>
+        </tr>
     </table>
+
+
+    <h2 class="title">Line Break</h2>
+    <table class="table">
+        <tr>
+            <th class="leftColumn">Name</th>
+            <th class="middleColumn">HTML</th>
+            <th>Sample</th>
+        </tr>
+        <tr>
+            <td>Line break</td>
+            <td>
+                <pre>&ltbr&gt</pre>
+            </td>
+            <td>
+                <br>
+            </td>
+        </tr>
+    </table>
+
+    <h2 class="title">Dividing Line</h2>
+    <table class="table">
+        <tr>
+            <th class="leftColumn">Name</th>
+            <th class="middleColumn">HTML</th>
+            <th>Sample</th>
+        </tr>
+        <tr>
+            <td>Dividing Line</td>
+            <td>
+                <pre>&lthr&gt</pre>
+            </td>
+            <td>
+                <hr>
+            </td>
+        </tr>
+    </table>
+
+    <h2 class="title">Comment</h2>
+    <table class="table">
+        <tr>
+            <th class="leftColumn">Name</th>
+            <th class="middleColumn">HTML</th>
+            <th>— —</th>
+        </tr>
+        <tr>
+            <td>Form</td>
+            <td>
+                <pre>&lt!-- this is a comment --&gt</pre>
+            </td>
+            <td>
+                <p style="color:black;background-color:yellow;padding:2px;text-align:left;width:fit-content">A comment
+                    will
+                    not be
+                    display</p>
+            </td>
+        </tr>
+    </table>
+
+    <h2 class="title">Hyper Link</h2>
+    <table class="table">
+        <tr>
+            <th class="leftColumn">Name</th>
+            <th class="middleColumn">HTML</th>
+            <th>Sample</th>
+        </tr>
+        <tr>
+            <td>Hyper Link</td>
+            <td>
+                <pre>&lta href="https://google.com target="_blank"&gtOpen Google&lt/a&gt</pre>
+            </td>
+            <td>
+                <a href="https://google.com" target="_blank">Open Google</a>
+            </td>
+        </tr>
+    </table>
+
+    <h2 class="title">Textarea</h2>
+    <table class="table">
+        <tr>
+            <th class="leftColumn">Name</th>
+            <th class="middleColumn">HTML</th>
+            <th>Sample</th>
+        </tr>
+        <tr>
+            <td>Textarea</td>
+            <td>
+                <pre>&lttextarea&gtContent&lt/textarea&gt</pre>
+            </td>
+            <td>
+                <textarea>Content</textarea>
+            </td>
+        </tr>
+    </table>
+
+    <h2 class="title">Div</h2>
+    <table class="table">
+        <tr>
+            <th class="leftColumn">Name</th>
+            <th class="middleColumn">HTML</th>
+            <th>Sample</th>
+        </tr>
+        <tr>
+            <td>Div</td>
+            <td>
+                <pre>&ltdiv&gtContent&lt/div&gt</pre>
+            </td>
+            <td>
+                <div>Content</div>
+            </td>
+        </tr>
+    </table>
+
+    <h2 class="title">List</h2>
+    <table class="table">
+        <tr>
+            <th class="leftColumn">Name</th>
+            <th class="middleColumn">HTML</th>
+            <th>Sample</th>
+        </tr>
+        <tr>
+            <td>Order List</td>
+            <td>
+                <pre>&ltol&gt<br>  &ltli&gtOrange&lt/li&gt<br>  &ltli&gtBanana&lt/li&gt<br>  &ltli&gtApple&lt/li&gt<br>  &ltli&gtStrawberry&lt/li&gt<br>&lt/ol&gt</pre>
+            </td>
+            <td>
+                <ol>
+                    <li>Orange</li>
+                    <li>Banana</li>
+                    <li>Apple</li>
+                    <li>Strawberry</li>
+                </ol>
+            </td>
+        </tr>
+        <tr>
+            <td>Unorder List</td>
+            <td>
+                <pre>&ltul&gt<br>  &ltli&gtOrange&lt/li&gt<br>  &ltli&gtBanana&lt/li&gt<br>  &ltli&gtApple&lt/li&gt<br>  &ltli&gtStrawberry&lt/li&gt<br>&lt/ul&gt</pre>
+            </td>
+            <td>
+                <ul>
+                    <li>Orange</li>
+                    <li>Banana</li>
+                    <li>Apple</li>
+                    <li>Strawberry</li>
+                </ul>
+            </td>
+        </tr>
+    </table>
+
+    <h2 class="title">Table</h2>
+    <table class="table">
+        <tr>
+            <th class="leftColumn">Name</th>
+            <th class="middleColumn">HTML</th>
+            <th>Sample</th>
+        </tr>
+        <tr>
+            <td>Table</td>
+            <td>
+                <pre>&lttable&gt<br>  &lttr&gt<br>    &ltth&gtName&lt/th&gt<br>    &ltth&gtAge&lt/th&gt<br>  &lt/tr&gt<br>  &lttr&gt<br>    &lttd&gtTom&lt/td&gt<br>    &lttd&gt11&lt/td&gt<br>  &lt/tr&gt<br>  &lttr&gt<br>    &lttd&gtSam&lt/td&gt<br>    &lttd&gt13&lt/td&gt<br>  &lt/tr&gt<br>&lt/table&gt</pre>
+            </td>
+            <td>
+                <table style="border-width:1px;box-shadow:none;">
+                    <tr>
+                        <th>Name</th>
+                        <th>Age</th>
+                    </tr>
+                    <tr>
+                        <td>Tom</td>
+                        <td>11</td>
+                    </tr>
+                    <tr>
+                        <td>Sam</td>
+                        <td>13</td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+    </table>
+
+
+    <h2 class="title">Details</h2>
+    <table class="table">
+        <tr>
+            <th class="leftColumn">Name</th>
+            <th class="middleColumn">HTML</th>
+            <th>Sample</th>
+        </tr>
+        <tr>
+            <td>Details</td>
+            <td>
+                <pre>&ltdetails&gt<br>  &ltsummary&gtSummary&lt/summary&gt<br>  &ltp&gtContent&lt/p&gt<br>&lt/details&gt</pre>
+            </td>
+            <td>
+                <details>
+                    <summary>Summary</summary>
+                    <p>Content</p>
+                </details>
+            </td>
+        </tr>
+    </table>
+
+    <h2 class="title">Form</h2>
+    <table class="table">
+        <tr>
+            <th class="leftColumn">Name</th>
+            <th class="middleColumn">HTML</th>
+            <th>Sample</th>
+        </tr>
+        <tr>
+            <td>Form</td>
+            <td>
+                <pre>&ltform action="Path/submit.html" target="_blank"&gt<br>  &ltinput type="text" name="q"&gt<br>  &ltinput type="submit"&gt<br>&lt/form&gt</pre>
+            </td>
+            <td>
+                <form action="Path/submit.html" target="_blank">
+                    <input name="q" type="text">
+                    <input type="submit">
+                </form>
+            </td>
+        </tr>
+    </table>
+
     <h2 class="title">Inputs</h2>
     <table class="table">
         <tr>
-            <th>Name</th>
-            <th>HTML</th>
+            <th class="leftColumn">Name</th>
+            <th class="middleColumn">HTML</th>
             <th>Sample</th>
         </tr>
         <tr>
@@ -94,12 +339,39 @@
             </td>
         </tr>
         <tr>
+            <td>Search Input</td>
+            <td>
+                <pre>&ltinput type="search"&gt</pre>
+            </td>
+            <td>
+                <input type="search">
+            </td>
+        </tr>
+        <tr>
+            <td>URL Input</td>
+            <td>
+                <pre>&ltinput type="url"&gt</pre>
+            </td>
+            <td>
+                <input type="url">
+            </td>
+        </tr>
+        <tr>
             <td>Date Input</td>
             <td>
                 <pre>&ltinput type="date"&gt</pre>
             </td>
             <td>
                 <input type="date">
+            </td>
+        </tr>
+        <tr>
+            <td>Month Input</td>
+            <td>
+                <pre>&ltinput type="month"&gt</pre>
+            </td>
+            <td>
+                <input type="month">
             </td>
         </tr>
         <tr>
@@ -121,12 +393,202 @@
             </td>
         </tr>
         <tr>
+            <td>Email Input</td>
+            <td>
+                <pre>&ltinput type="email"&gt</pre>
+            </td>
+            <td>
+                <input type="email">
+            </td>
+        </tr>
+        <tr>
+            <td>Telephone Input</td>
+            <td>
+                <pre>&ltinput type="tel"&gt</pre>
+            </td>
+            <td>
+                <input type="tel">
+            </td>
+        </tr>
+        <tr>
+            <td>Password Input</td>
+            <td>
+                <pre>&ltinput type="password"&gt</pre>
+            </td>
+            <td>
+                <input type="password">
+            </td>
+        </tr>
+        <tr>
             <td>Color Select</td>
             <td>
                 <pre>&ltinput type="color"&gt</pre>
             </td>
             <td>
                 <input type="color">
+            </td>
+        </tr>
+        <tr>
+            <td>File Select</td>
+            <td>
+                <pre>&ltinput type="file"&gt</pre>
+            </td>
+            <td>
+                <input type="file">
+            </td>
+        </tr>
+        <tr>
+            <td>Checkbox</td>
+            <td>
+                <pre>&ltinput type="checkbox"&gt</pre>
+            </td>
+            <td>
+                <input type="checkbox">
+            </td>
+        </tr>
+        <tr>
+            <td>Radio Button</td>
+            <td>
+                <pre>&ltinput type="radio"&gt</pre>
+            </td>
+            <td>
+                <input type="radio">
+            </td>
+        </tr>
+        <tr>
+            <td>Submit Button</td>
+            <td>
+                <pre>&ltinput type="submit"&gt</pre>
+            </td>
+            <td>
+                <input type="submit">
+            </td>
+        </tr>
+        <tr>
+            <td>Reset Button</td>
+            <td>
+                <pre>&ltinput type="reset"&gt</pre>
+            </td>
+            <td>
+                <input type="reset">
+            </td>
+        </tr>
+        <tr>
+            <td>Slider</td>
+            <td>
+                <pre>&ltinput type="range"&gt</pre>
+            </td>
+            <td>
+                <input type="range">
+            </td>
+        </tr>
+    </table>
+
+    <h2 class="title">Button</h2>
+    <table class="table">
+        <tr>
+            <th class="leftColumn">Name</th>
+            <th class="middleColumn">HTML</th>
+            <th>Sample</th>
+        </tr>
+        <tr>
+            <td>Form</td>
+            <td>
+                <pre>&ltbutton&gtButton&lt/button&gt</pre>
+            </td>
+            <td>
+                <button>Button</button>
+            </td>
+        </tr>
+    </table>
+
+    <h2 class="title">Dropdown</h2>
+    <table class="table">
+        <tr>
+            <th class="leftColumn">Name</th>
+            <th class="middleColumn">HTML</th>
+            <th>Sample</th>
+        </tr>
+        <tr>
+            <td>Dropdown</td>
+            <td>
+                <pre>&ltselect&gt<br>  &ltoption disabled selected&gt Choose your code language&lt/option&gt<br>  &ltoption&gtHTML&lt/option&gt<br>  &ltoption&gtCss&lt/option&gt<br>  &ltoption&gtJavascript&lt/option&gt<br>  &ltoption&gtPython&lt/option&gt<br>&lt/select&gt</pre>
+            </td>
+            <td>
+                <select>
+                    <option disabled selected> Choose your code language</option>
+                    <option>HTML</option>
+                    <option>Css</option>
+                    <option>Javascript</option>
+                    <option>Python</option>
+                </select>
+            </td>
+        </tr>
+    </table>
+
+    <h2 class="title">Image</h2>
+    <table class="table">
+        <tr>
+            <th class="leftColumn">Name</th>
+            <th class="middleColumn">HTML</th>
+            <th>Sample</th>
+        </tr>
+        <tr>
+            <td>Image</td>
+            <td>
+                <pre>&ltimg src="Path\fresh-green-apple-stockcake.jpg"&gt</pre>
+            </td>
+            <td>
+                <img style="width:170px;" src="Path\fresh-green-apple-stockcake.jpg">
+            </td>
+        </tr>
+    </table>
+
+    <h2 class="title">Media</h2>
+    <table class="table">
+        <tr>
+            <th class="leftColumn">Name</th>
+            <th class="middleColumn">HTML</th>
+            <th>Sample</th>
+        </tr>
+        <tr>
+            <td>Audio</td>
+            <td>
+                <pre>&ltaudio controls&gt<br>  &ltsource src="Path/Calculator on the street.mp3"&gt<br>&lt/audio&gt</pre>
+            </td>
+            <td>
+                <audio controls>
+                    <source src="Path/Calculator on the street.mp3">
+                </audio>
+            </td>
+        </tr>
+        <tr>
+            <td>Video</td>
+            <td>
+                <pre>&ltvideo controls&gt<br>  &ltsource src="Path/Calculator-on-the-street.mp4"&gt<br>&lt/video&gt</pre>
+            </td>
+            <td>
+                <video controls style="height:300px;">
+                    <source src="Path/Calculator-on-the-street.mp4">
+                </video>
+            </td>
+        </tr>
+    </table>
+
+    <h2 class="title">Iframe</h2>
+    <table class="table">
+        <tr>
+            <th class="leftColumn">Name</th>
+            <th class="middleColumn">HTML</th>
+            <th>Sample</th>
+        </tr>
+        <tr>
+            <td>Audio</td>
+            <td>
+                <pre>&ltiframe src="Path/embed.html"&gt&lt/iframe&gt</pre>
+            </td>
+            <td>
+                <iframe src="Path/embed.html">
             </td>
         </tr>
     </table>
