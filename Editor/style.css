@@ -11,17 +11,31 @@
 }
 
 #input {
-    width: 470px;
-    height: 600px;
+    width: 570px;
+    height: 590px;
     resize: none;
-    background-color: white;
+    background-color: rgb(241, 238, 238);
     border-width: 1px;
     border-radius: 5px;
     position: absolute;
-    bottom: 20px;
-    left: 20px;
+    bottom: 10px;
+    left: 10px;
+    padding: 5px;
+    font-size: 15px;
 }
 
 #input:focus {
     outline: none;
+}
+
+#display {
+    width: 580px;
+    height: 600px;
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 5px;
+    background-color: white;
 }

@@ -73,3 +73,16 @@ th {
     border-width: 1px;
     border-color: lightgray;
 }
+
+.viewOnEditor {
+    color: blue;
+}
+
+.viewOnEditor:visited {
+    color: blue;
+}
+
+.optionList {
+    margin: 0px;
+    padding-left: 15px;
+}
