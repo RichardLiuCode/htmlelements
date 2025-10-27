@@ -26,16 +26,44 @@
     </div>
 
     <h2 class="title">Run Javascript in HTML by using attribute</h2>
-    <div class="frame" style="height:150px;">
+    <div class="frame" style="height:350px;">
         <p style="font-family:arial;margin-top:20px;margin-left:20px;">You can put these attribe in html to run
             javascript.</p>
         <ol>
-            <li>onload</li>
-            <li>onclick</li>
+            <li>onload
+                <p>Example:
+                <pre class="codeDisplay"
+                    style="width:fit-content">&ltbody onload="console.log('content loaded!')"&gtbutton&lt/body&gt</pre>
+                </p>
+            </li>
+            <li>
+                onclick
+                <p>Example:
+                <pre class="codeDisplay"
+                    style="width:fit-content">&ltbutton onclick="console.log('button clicked!')"&gtbutton&lt/button&gt</pre>
+                </p>
+            </li>
             <li>onmouseover</li>
             <li>onmouseout</li>
         </ol>
     </div>
+
+    <h2 class="title">Run Javascript in HTML by using a script tag</h2>
+    <div class="frame" style="height:390px;">
+        <p style="font-family:arial;margin-top:20px;margin-left:20px;">You can write your javascript code in the script
+            tag and you code will be executed when thr browser load the web page</p>
+        <div class="codeDisplay" style="margin-left:40px;">
+            <pre>&ltscript&gt<br>  console.log("Code loaded!");<br>&lt/script&gt</pre>
+        </div>
+        <br>
+        <hr>
+        <h3 style="margin-left:40px;">OR</h3>
+        <p style="margin-left:40px;">Use the src attribe in the script tag</p>
+        <div class="codeDisplay" style="margin-left:40px;">
+            <pre>&ltscript src="script.js"&gt&lt/script&gt</pre>
+        </div>
+        <p style="margin-left:40px;">The code above will import the file with the filename "script.js" and execut it.
+        </p>
 </body>
 
 </html>
